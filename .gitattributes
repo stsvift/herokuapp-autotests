@@ -2,5 +2,5 @@
 *.xml text eol=lf
 *.md text eol=lf
 *.yml text eol=lf
-evidence/** linguist-generated=true
+evidence/** -text linguist-generated=true
 docs/*.docx binary
