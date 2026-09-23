@@ -1,0 +1,332 @@
+{
+  "full": {
+    "tests": "28",
+    "failures": "3",
+    "errors": "0",
+    "skipped": "0",
+    "time": "101.709",
+    "cases": [
+      {
+        "name": "addTwoAndDeleteOne",
+        "class": "ru.ks54.tests.AddRemoveTest",
+        "time": "12.817",
+        "status": "PASS"
+      },
+      {
+        "name": "deleteLastElementLeavesEmptyList",
+        "class": "ru.ks54.tests.AddRemoveTest",
+        "time": "1.981",
+        "status": "PASS"
+      },
+      {
+        "name": "checkFirstAndUncheckSecond",
+        "class": "ru.ks54.tests.CheckboxesTest",
+        "time": "1.997",
+        "status": "PASS"
+      },
+      {
+        "name": "settingSameStateDoesNotToggle",
+        "class": "ru.ks54.tests.CheckboxesTest",
+        "time": "1.844",
+        "status": "PASS"
+      },
+      {
+        "name": "nonexistentOptionIsRejected",
+        "class": "ru.ks54.tests.DropdownTest",
+        "time": "1.762",
+        "status": "PASS"
+      },
+      {
+        "name": "optionsExistAndCanBeSelected",
+        "class": "ru.ks54.tests.DropdownTest",
+        "time": "2.021",
+        "status": "PASS"
+      },
+      {
+        "name": "hoverRevealsCorrectUser[1](1)",
+        "class": "ru.ks54.tests.HoversTest",
+        "time": "1.964",
+        "status": "PASS"
+      },
+      {
+        "name": "hoverRevealsCorrectUser[2](2)",
+        "class": "ru.ks54.tests.HoversTest",
+        "time": "2.097",
+        "status": "PASS"
+      },
+      {
+        "name": "hoverRevealsCorrectUser[3](3)",
+        "class": "ru.ks54.tests.HoversTest",
+        "time": "2.005",
+        "status": "PASS"
+      },
+      {
+        "name": "profileLinkDoesNotOpen404[1](1)",
+        "class": "ru.ks54.tests.HoversTest",
+        "time": "2.297",
+        "status": "FAIL"
+      },
+      {
+        "name": "profileLinkDoesNotOpen404[2](2)",
+        "class": "ru.ks54.tests.HoversTest",
+        "time": "2.113",
+        "status": "FAIL"
+      },
+      {
+        "name": "profileLinkDoesNotOpen404[3](3)",
+        "class": "ru.ks54.tests.HoversTest",
+        "time": "2.093",
+        "status": "FAIL"
+      },
+      {
+        "name": "acceptsNumericValues[0](1)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.798",
+        "status": "PASS"
+      },
+      {
+        "name": "acceptsNumericValues[42](2)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.797",
+        "status": "PASS"
+      },
+      {
+        "name": "acceptsNumericValues[-7](3)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.803",
+        "status": "PASS"
+      },
+      {
+        "name": "acceptsNumericValues[3.5](4)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.812",
+        "status": "PASS"
+      },
+      {
+        "name": "acceptsNumericValues[1000000](5)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "2.015",
+        "status": "PASS"
+      },
+      {
+        "name": "arrowsIncrementAndDecrement",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.87",
+        "status": "PASS"
+      },
+      {
+        "name": "rejectsNonNumericValues[abc](1)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.773",
+        "status": "PASS"
+      },
+      {
+        "name": "rejectsNonNumericValues[!@#](2)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.927",
+        "status": "PASS"
+      },
+      {
+        "name": "notificationCanBeDismissed",
+        "class": "ru.ks54.tests.NotificationsTest",
+        "time": "2.698",
+        "status": "PASS"
+      },
+      {
+        "name": "reloadShowsAllowedNotification",
+        "class": "ru.ks54.tests.NotificationsTest",
+        "time": "2.986",
+        "status": "PASS"
+      },
+      {
+        "name": "fiveCellsHaveExpectedContent[1](1)",
+        "class": "ru.ks54.tests.TablesTest",
+        "time": "3.015",
+        "status": "PASS"
+      },
+      {
+        "name": "fiveCellsHaveExpectedContent[2](2)",
+        "class": "ru.ks54.tests.TablesTest",
+        "time": "2.717",
+        "status": "PASS"
+      },
+      {
+        "name": "sortsLastNamesAscending[1](1)",
+        "class": "ru.ks54.tests.TablesTest",
+        "time": "5.012",
+        "status": "PASS"
+      },
+      {
+        "name": "sortsLastNamesAscending[2](2)",
+        "class": "ru.ks54.tests.TablesTest",
+        "time": "3.087",
+        "status": "PASS"
+      },
+      {
+        "name": "paragraphHasCorrectSpelling",
+        "class": "ru.ks54.tests.TyposTest",
+        "time": "3.757",
+        "status": "PASS"
+      },
+      {
+        "name": "paragraphsMatchDocumentedVariants",
+        "class": "ru.ks54.tests.TyposTest",
+        "time": "1.767",
+        "status": "PASS"
+      }
+    ]
+  },
+  "stable": {
+    "tests": "24",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "69.653",
+    "cases": [
+      {
+        "name": "addTwoAndDeleteOne",
+        "class": "ru.ks54.tests.AddRemoveTest",
+        "time": "2.971",
+        "status": "PASS"
+      },
+      {
+        "name": "deleteLastElementLeavesEmptyList",
+        "class": "ru.ks54.tests.AddRemoveTest",
+        "time": "2.894",
+        "status": "PASS"
+      },
+      {
+        "name": "checkFirstAndUncheckSecond",
+        "class": "ru.ks54.tests.CheckboxesTest",
+        "time": "1.991",
+        "status": "PASS"
+      },
+      {
+        "name": "settingSameStateDoesNotToggle",
+        "class": "ru.ks54.tests.CheckboxesTest",
+        "time": "1.842",
+        "status": "PASS"
+      },
+      {
+        "name": "nonexistentOptionIsRejected",
+        "class": "ru.ks54.tests.DropdownTest",
+        "time": "1.789",
+        "status": "PASS"
+      },
+      {
+        "name": "optionsExistAndCanBeSelected",
+        "class": "ru.ks54.tests.DropdownTest",
+        "time": "2.191",
+        "status": "PASS"
+      },
+      {
+        "name": "hoverRevealsCorrectUser[1](1)",
+        "class": "ru.ks54.tests.HoversTest",
+        "time": "1.959",
+        "status": "PASS"
+      },
+      {
+        "name": "hoverRevealsCorrectUser[2](2)",
+        "class": "ru.ks54.tests.HoversTest",
+        "time": "1.926",
+        "status": "PASS"
+      },
+      {
+        "name": "hoverRevealsCorrectUser[3](3)",
+        "class": "ru.ks54.tests.HoversTest",
+        "time": "2.095",
+        "status": "PASS"
+      },
+      {
+        "name": "acceptsNumericValues[0](1)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.832",
+        "status": "PASS"
+      },
+      {
+        "name": "acceptsNumericValues[42](2)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.791",
+        "status": "PASS"
+      },
+      {
+        "name": "acceptsNumericValues[-7](3)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.888",
+        "status": "PASS"
+      },
+      {
+        "name": "acceptsNumericValues[3.5](4)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.805",
+        "status": "PASS"
+      },
+      {
+        "name": "acceptsNumericValues[1000000](5)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.817",
+        "status": "PASS"
+      },
+      {
+        "name": "arrowsIncrementAndDecrement",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.935",
+        "status": "PASS"
+      },
+      {
+        "name": "rejectsNonNumericValues[abc](1)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.77",
+        "status": "PASS"
+      },
+      {
+        "name": "rejectsNonNumericValues[!@#](2)",
+        "class": "ru.ks54.tests.InputsTest",
+        "time": "1.813",
+        "status": "PASS"
+      },
+      {
+        "name": "notificationCanBeDismissed",
+        "class": "ru.ks54.tests.NotificationsTest",
+        "time": "2.642",
+        "status": "PASS"
+      },
+      {
+        "name": "reloadShowsAllowedNotification",
+        "class": "ru.ks54.tests.NotificationsTest",
+        "time": "2.505",
+        "status": "PASS"
+      },
+      {
+        "name": "fiveCellsHaveExpectedContent[1](1)",
+        "class": "ru.ks54.tests.TablesTest",
+        "time": "1.794",
+        "status": "PASS"
+      },
+      {
+        "name": "fiveCellsHaveExpectedContent[2](2)",
+        "class": "ru.ks54.tests.TablesTest",
+        "time": "2.087",
+        "status": "PASS"
+      },
+      {
+        "name": "sortsLastNamesAscending[1](1)",
+        "class": "ru.ks54.tests.TablesTest",
+        "time": "1.81",
+        "status": "PASS"
+      },
+      {
+        "name": "sortsLastNamesAscending[2](2)",
+        "class": "ru.ks54.tests.TablesTest",
+        "time": "1.784",
+        "status": "PASS"
+      },
+      {
+        "name": "paragraphsMatchDocumentedVariants",
+        "class": "ru.ks54.tests.TyposTest",
+        "time": "1.713",
+        "status": "PASS"
+      }
+    ]
+  }
+}

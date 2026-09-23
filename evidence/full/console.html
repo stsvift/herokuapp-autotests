@@ -1,0 +1,29 @@
+<!doctype html><meta charset="utf-8"><title>Maven full</title><style>body{font:20px Arial;margin:48px;color:#172638}pre{font:17px Consolas;white-space:pre-wrap;background:#f1f4f7;padding:25px;border:1px solid #ccd5df}h1{font-size:30px}</style><h1>HerokuApp — full run</h1><p>Сохранённый вывод Maven · 23.09.2026 · Java 17 · Chrome 153</p><pre>mvn clean test
+
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   HoversTest.profileLinkDoesNotOpen404:18 HOVER-01: /users/1 returns Not Found expected [false] but found [true]
+[ERROR]   HoversTest.profileLinkDoesNotOpen404:18 HOVER-01: /users/2 returns Not Found expected [false] but found [true]
+[ERROR]   HoversTest.profileLinkDoesNotOpen404:18 HOVER-01: /users/3 returns Not Found expected [false] but found [true]
+[INFO] 
+[ERROR] Tests run: 28, Failures: 3, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:50 min
+[INFO] Finished at: 2026-09-23T23:39:47+03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.2:test (default-test) on project herokuapp-autotests: There are test failures.
+[ERROR] 
+[ERROR] See C:\Users\Stepan\.codex\.chatgpt-projects\g-p-6aaed74fa71c81918348ef6ba582ba3c\herokuapp-autotests\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -&gt; [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+</pre>

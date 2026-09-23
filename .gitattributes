@@ -1,0 +1,6 @@
+*.java text eol=lf
+*.xml text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+evidence/** linguist-generated=true
+docs/*.docx binary

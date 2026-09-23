@@ -1,0 +1,49 @@
+name: Java UI tests
+on:
+  push:
+    branches: ['feature/ISP42_Volkov_selenium']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  stable:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+      - name: Run stable scenarios
+        run: mvn -B clean test -Pstable
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: stable-reports-and-screenshots
+          path: |
+            target/surefire-reports/
+            target/screenshots/
+  full:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    # The external teaching site has documented profile-link defects.
+    # Preserve failures and artifacts without blocking the independent stable job.
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+      - name: Run every scenario including known defects
+        run: mvn -B clean test
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: full-reports-and-screenshots
+          path: |
+            target/surefire-reports/
+            target/screenshots/
